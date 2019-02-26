@@ -1,10 +1,21 @@
-```
-// 不换行
+```// 不换行
 .no-wrap {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+```
+### 代码片段高亮显示
+GitHub的markdown语法还支持部分语言的代码片段高亮显示。只需要在代码的上一行和下一行用\`\`\`标记。
+```Java
+	public static void main(String[] args){} //Java
+```
+```c
+	int main(int argc,char *argv[]) //C
+```
 ```javascript
 	document.getElementById("myH1").innerHTML="Welcome to my Homepage";//javascript
+```
+```cpp
+	string &operator+(const string& A,const string& B) //cpp
 ```
